@@ -1,0 +1,160 @@
+/* ============================================================
+   style.css — shared by every page.
+   Edit this one file and every page changes.
+   ============================================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #000;
+  background: #fff;
+  max-width: 730px;
+  margin: 0 auto;
+  padding: 60px 24px 100px;
+  text-align: center;
+}
+
+/* ---------- header ---------- */
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+
+/* ---------- navigation ---------- */
+
+nav a,
+.years a {
+  color: #000;
+  text-decoration: underline;
+  margin: 0 13px;
+  white-space: nowrap;
+}
+
+nav a:hover,
+.years a:hover {
+  color: #0000cc;
+}
+
+/* the page you are currently on turns blue */
+nav a.current {
+  color: #0645ad;
+}
+
+/* year row on the Work pages */
+.years {
+  margin-top: 14px;
+  font-size: 15px;
+}
+
+/* the year you are currently on gets the cyan highlight */
+.years a.current {
+  background: #00ffff;
+  color: #000;
+}
+
+/* ---------- body content ---------- */
+
+main {
+  margin-top: 34px;
+}
+
+p {
+  margin-bottom: 17px;
+}
+
+img {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto 14px;
+}
+
+a {
+  color: #0645ad;
+}
+
+.signature {
+  margin: 26px 0;
+}
+
+.caption {
+  margin-bottom: 22px;
+}
+
+.wip {
+  margin-top: 60px;
+  color: #555;
+}
+
+/* ---------- the two coloured buttons on the About page ---------- */
+
+.photo-button {
+  color: #cc00cc;
+  text-decoration: underline;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.song-link {
+  background: #00ff00;
+  color: #0645ad;
+  text-decoration: underline;
+  padding: 1px 3px;
+}
+
+/* ---------- keyboard accessibility ---------- */
+
+a:focus-visible,
+.photo-button:focus-visible {
+  outline: 2px solid #0645ad;
+  outline-offset: 2px;
+}
+
+/* ---------- mobile ---------- */
+
+@media (max-width: 600px) {
+  body {
+    padding: 34px 16px 70px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  /* nav wraps to two lines instead of running off the screen */
+  nav a,
+  .years a {
+    margin: 0 7px;
+    line-height: 2.1;
+  }
+
+  /* 50% of a phone-width page is tiny — give images more room on mobile */
+  img {
+    max-width: 80%;
+  }
+}
