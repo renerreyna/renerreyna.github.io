@@ -24,14 +24,13 @@
    ------------------------------------------------------------ */
 
 const PHOTOS = [
-  "images/about/photo1.jpg",
-  "images/about/photo2.jpeg",
+  "images/about/234.JPEG",
   "images/about/671.JPG",
   "images/about/a380.jpg",
   "images/about/austinpng.jpg",
   "images/about/bankpic.jpg",
   "images/about/cafemir.jpg",
-  "images/about/casinopng",
+  "images/about/casinopng.jpg",
   "images/about/cat1pic.jpg",
   "images/about/chinapic.jpg",
   "images/about/drawpic.jpg",
@@ -48,11 +47,13 @@ const PHOTOS = [
   "images/about/IMG_6074.JPG",
   "images/about/kazsketch.jpg",
   "images/about/lazy.jpg",
-  "images/about/library.jpg"
+  "images/about/library.jpg",
   "images/about/massmoca.jpg",
   "images/about/mirrorpic.jpg",
   "images/about/mooshehead.jpg",
   "images/about/officepng.jpg",
+  "images/about/photo1.jpg",
+  "images/about/photo2.jpeg",
   "images/about/RFC_3053.JPG",
   "images/about/shieldpic.jpg",
   "images/about/snow2.jpg",
