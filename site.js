@@ -66,7 +66,7 @@ const PHOTOS = [
   "images/about/IMG_3364.JPG",
   "images/about/IMG_4580.JPG",
   "images/about/IMG_4576.png",
-  "images/about/IMG_0015.png",
+  "images/about/IMG_0015.JPG",
   "images/about/IMG_5846.png",
   "images/about/IMG_4060.png",
   "images/about/FullSizeRender.png",
