@@ -65,6 +65,23 @@ const PHOTOS = [
   "images/about/IMG_2054.JPG",
   "images/about/IMG_3364.JPG",
   "images/about/IMG_4580.JPG",
+  "images/about/IMG_4576.png",
+  "images/about/IMG_0015.png",
+  "images/about/IMG_5846.png",
+  "images/about/IMG_4060.png",
+  "images/about/FullSizeRender.png",
+  "images/about/IMG_2822.png",
+  "images/about/IMG_6263.png",
+  "images/about/IMG_6380.png",
+  "images/about/IMG_6504.png",
+  "images/about/IMG_6676.png",
+  "images/about/IMG_41489.png",
+  "images/about/IMG_7957.png",
+  "images/about/IMG_8710.png",
+  "images/about/IMG_9450.png",
+  "images/about/IMG_9883.png",
+  "images/about/IMG_9884.png",
+  "images/about/IMG_0531.png",
 ];
 
 
