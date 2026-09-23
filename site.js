@@ -63,7 +63,7 @@ const PHOTOS = [
   "images/about/beebook.JPG",
   "images/about/partypic.JPG",
   "images/about/IMG_2054.JPG",
-  "images/about/IMG_3364.JPG",
+  "images/about/IMG_3364.jpg",
   "images/about/IMG_4580.JPG",
   "images/about/IMG_4576.png",
   "images/about/IMG_0015.JPG",
