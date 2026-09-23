@@ -58,6 +58,13 @@ const PHOTOS = [
   "images/about/shieldpic.jpg",
   "images/about/snow2.jpg",
   "images/about/stretchpng.jpg",
+  "images/about/IMG_9695.jpg",
+  "images/about/Reyna-8.jpg",
+  "images/about/beebook.jpg",
+  "images/about/partypic.jpg",
+  "images/about/IMG_2054.jpg",
+  "images/about/IMG_3364.jpg",
+  "images/about/IMG_4580.jpg",
 ];
 
 
