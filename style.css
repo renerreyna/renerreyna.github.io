@@ -30,11 +30,6 @@ h1 {
   margin-bottom: 18px;
 }
 
-.subtitle {
-  font-size: 16px;
-  margin-bottom: 22px;
-}
-
 /* ---------- navigation ---------- */
 
 nav a,
@@ -92,12 +87,16 @@ a {
   margin: 26px 0;
 }
 
-/* responsive 16:9 video embed (YouTube etc.) */
+/* responsive 16:9 video embed (YouTube etc.)
+   Breaks out of the 730px text column: up to 1000px wide on
+   big screens, full width minus a 16px gutter on phones. */
 .video {
   position: relative;
-  width: 100%;
+  width: min(1000px, calc(100vw - 32px));
+  left: 50%;
+  transform: translateX(-50%);
   aspect-ratio: 16 / 9;
-  margin: 0 auto 14px;
+  margin-bottom: 14px;
 }
 
 .video iframe {
@@ -158,11 +157,7 @@ a:focus-visible,
     font-size: 24px;
   }
 
-  .subtitle {
-    font-size: 14px;
-  }
-
-  /* nav wraps to two lines instead of running off the screen */
+    /* nav wraps to two lines instead of running off the screen */
   nav a,
   .years a {
     margin: 0 7px;
