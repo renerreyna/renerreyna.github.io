@@ -1,0 +1,6 @@
+# mac junk
+.DS_Store
+# R session files — these were being published to the live site
+.RData
+.Rhistory
+.Rproj.user/

@@ -33,6 +33,7 @@ h1 {
 /* ---------- navigation ---------- */
 
 nav a,
+.cats a,
 .years a {
   color: #000;
   text-decoration: underline;
@@ -41,12 +42,24 @@ nav a,
 }
 
 nav a:hover,
+.cats a:hover,
 .years a:hover {
   color: #0000cc;
 }
 
 /* the page you are currently on turns blue */
 nav a.current {
+  color: #0645ad;
+}
+
+/* category row on the Work pages (physical media / sound / photography) */
+.cats {
+  margin-top: 14px;
+  font-size: 15px;
+}
+
+/* the category you are on turns blue, like the top nav */
+.cats a.current {
   color: #0645ad;
 }
 
@@ -107,6 +120,41 @@ a {
   border: 0;
 }
 
+/* photography gets the full 730px column instead of 50% */
+img.photo {
+  max-width: 100%;
+}
+
+/* SoundCloud player — fixed height, full column width */
+.soundcloud {
+  width: 100%;
+  height: 166px;
+  margin-bottom: 14px;
+}
+
+.soundcloud iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* grey "something goes here" boxes on the empty Photography / Sound
+   pages. Delete them as you fill the slots. */
+.placeholder {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  margin: 0 auto 14px;
+  border: 1px dashed #999;
+  background: #f4f4f4;
+  color: #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.placeholder.video-ph { aspect-ratio: 16 / 9; }
+.placeholder.sc-ph    { aspect-ratio: auto; height: 166px; }
+
 .caption {
   margin-bottom: 22px;
 }
@@ -159,6 +207,7 @@ a:focus-visible,
 
     /* nav wraps to two lines instead of running off the screen */
   nav a,
+  .cats a,
   .years a {
     margin: 0 7px;
     line-height: 2.1;
@@ -167,5 +216,9 @@ a:focus-visible,
   /* 50% of a phone-width page is tiny — give images more room on mobile */
   img {
     max-width: 80%;
+  }
+
+  img.photo {
+    max-width: 100%;
   }
 }
