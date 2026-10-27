@@ -33,7 +33,6 @@ h1 {
 /* ---------- navigation ---------- */
 
 nav a,
-.cats a,
 .years a {
   color: #000;
   text-decoration: underline;
@@ -42,7 +41,6 @@ nav a,
 }
 
 nav a:hover,
-.cats a:hover,
 .years a:hover {
   color: #0000cc;
 }
@@ -52,20 +50,15 @@ nav a.current {
   color: #0645ad;
 }
 
-/* category row on the Work pages (physical media / sound / photography) */
-.cats {
-  margin-top: 14px;
-  font-size: 15px;
-}
-
-/* the category you are on turns blue, like the top nav */
-.cats a.current {
-  color: #0645ad;
+/* short intro blurb under the nav on the Work pages */
+.blurb {
+  margin: 18px auto 0;
+  max-width: 520px;
 }
 
 /* year row on the Work pages */
 .years {
-  margin-top: 14px;
+  margin-top: 4px;
   font-size: 15px;
 }
 
@@ -207,7 +200,6 @@ a:focus-visible,
 
     /* nav wraps to two lines instead of running off the screen */
   nav a,
-  .cats a,
   .years a {
     margin: 0 7px;
     line-height: 2.1;
