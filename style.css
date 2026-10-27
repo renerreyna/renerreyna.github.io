@@ -52,8 +52,12 @@ nav a.current {
 
 /* short intro blurb under the nav on the Work pages */
 .blurb {
-  margin: 18px auto 0;
-  max-width: 520px;
+  margin: 22px auto 0;
+  max-width: 560px;
+}
+
+.blurb-quote {
+  font-style: italic;
 }
 
 /* year row on the Work pages */
