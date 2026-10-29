@@ -82,6 +82,18 @@ const PHOTOS = [
   "images/about/IMG_9883.png",
   "images/about/IMG_9884.png",
   "images/about/IMG_0531.png",
+  "images/about/jewelry-mirror-1.jpg",
+  "images/about/library-wine.jpg",
+  "images/about/jaw-closeup.jpg",
+  "images/about/suit-duo.jpg",
+  "images/about/affirmations-mirror.jpg",
+  "images/about/bathroom-tile.jpg",
+  "images/about/bathroom-shaving.jpg",
+  "images/about/head-markers.jpg",
+  "images/about/childhood-pinata.png",
+  "images/about/poolhall-cue.jpg",
+  "images/about/poolhall-profile.jpg",
+  "images/about/jewelry-mirror-2.jpg",
 ];
 
 
